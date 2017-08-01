@@ -10,7 +10,7 @@ const TAB = ^I;
 { Variable Declarations }
 
 var Look: char;              { Lookahead Character }
-
+                              
 {--------------------------------------------------------------}
 { Read New Character From Input Stream }
 
@@ -64,7 +64,7 @@ function IsAlpha(c: char): boolean;
 begin
    IsAlpha := upcase(c) in ['A'..'Z'];
 end;
-
+                              
 
 {--------------------------------------------------------------}
 
