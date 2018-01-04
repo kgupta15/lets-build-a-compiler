@@ -16,7 +16,7 @@
   </a>
   <a href="https://codeclimate.com/github/daemonslayer/lets-build-a-compiler/coverage">
     <img src="https://codeclimate.com/github/daemonslayer/lets-build-a-compiler/badges/coverage.svg" alt="test coverage">
-  </a>
+  </a> 
   <a href="https://codeclimate.com/github/daemonslayer/lets-build-a-compiler">
     <img src="https://codeclimate.com/github/daemonslayer/lets-build-a-compiler/badges/issue_count.svg" alt="issue count">
   </a>  
@@ -24,6 +24,27 @@
       <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="License">
   </a>
 </p>
+
+### Installation
+
+The only requirement is a Pascal Compiler.
+
+#### Windows
+
+Go to the link mentioned below :
+```
+https://www.freepascal.org/
+```
+
+and download a setup (.exe) file according to your architecture. Install it, setup your PATH, and you are good to go.
+
+#### Ubuntu
+
+Use the following command : 
+
+```
+sudo apt-get install fp-compiler
+```
 
 ### License
 MIT License
